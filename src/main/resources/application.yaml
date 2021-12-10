@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+http:
+  defaultTimeout: 4000
+
+
+client:
+  url: "https://httpbin.org"
+  requestDelaySeconds: 3
+
+
